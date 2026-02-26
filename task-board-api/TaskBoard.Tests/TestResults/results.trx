@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e00dc333-4a9c-4cf1-9f38-1e5b43e5c8f7" name="ETR Infotech@DESKTOP-G1HNGF2 2026-02-24 22:38:25" runUser="DESKTOP-G1HNGF2\ETR Infotech" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-02-24T22:38:25.1033904+05:30" queuing="2026-02-24T22:38:25.1033910+05:30" start="2026-02-24T22:38:22.7179404+05:30" finish="2026-02-24T22:38:33.6800690+05:30" />
+  <TestSettings name="default" id="637187cc-f947-4f88-8e7d-237663bdb2a9">
+    <Deployment runDeploymentRoot="ETR_Infotech_DESKTOP-G1HNGF2_2026-02-24_22_38_25" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6224a8ef-def1-4bf9-860e-720e7feb37bd" testId="996c3c3a-6d16-d487-5745-7f8ec649da4e" testName="PasswordMismatch_FailsValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0006530" startTime="2026-02-24T22:38:33.5485221+05:30" endTime="2026-02-24T22:38:33.5491746+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6224a8ef-def1-4bf9-860e-720e7feb37bd" />
+    <UnitTestResult executionId="7e6b3e37-ff05-4313-a1ed-583845a27508" testId="1d3cac6a-ab15-47d0-4b12-01f7956135f9" testName="CreateAsync_HappyPath_ReturnsNewColumn" computerName="DESKTOP-G1HNGF2" duration="00:00:00.1529570" startTime="2026-02-24T22:38:33.1186135+05:30" endTime="2026-02-24T22:38:33.2715700+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e6b3e37-ff05-4313-a1ed-583845a27508" />
+    <UnitTestResult executionId="7c0b5524-8e54-47de-8982-b2e84c459d7b" testId="1d6f4efc-8f97-b665-a382-2e344a6e0089" testName="WeakPassword_FailsValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0007410" startTime="2026-02-24T22:38:33.5496404+05:30" endTime="2026-02-24T22:38:33.5503807+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c0b5524-8e54-47de-8982-b2e84c459d7b" />
+    <UnitTestResult executionId="98a7fe94-0655-4523-932a-7a73953148d6" testId="069a5a73-851f-0930-47d6-671b0fa72cf0" testName="GetByUserId_ReturnsOnlyUserColumns" computerName="DESKTOP-G1HNGF2" duration="00:00:02.3758550" startTime="2026-02-24T22:38:24.3445976+05:30" endTime="2026-02-24T22:38:26.7204522+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98a7fe94-0655-4523-932a-7a73953148d6" />
+    <UnitTestResult executionId="830040a2-a989-487b-ac11-3052814a75cb" testId="c3211e07-63bf-5453-ddc0-2645c2bd023b" testName="GetByIdAsync_DifferentUser_ThrowsUnauthorized" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0080360" startTime="2026-02-24T22:38:33.4005452+05:30" endTime="2026-02-24T22:38:33.4085808+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="830040a2-a989-487b-ac11-3052814a75cb" />
+    <UnitTestResult executionId="3f4e92ab-6e36-4475-ae3b-c55a1668d4c3" testId="9573cabf-641a-bf2e-82ca-d79b2d442039" testName="GetByUserId_ReturnsOnlyUserTasks" computerName="DESKTOP-G1HNGF2" duration="00:00:00.7675680" startTime="2026-02-24T22:38:27.8280919+05:30" endTime="2026-02-24T22:38:28.5956600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f4e92ab-6e36-4475-ae3b-c55a1668d4c3" />
+    <UnitTestResult executionId="f20ae8e5-475e-42dc-a389-a7b8a4da195b" testId="f1b69833-165e-3b49-c6a5-eda523f0858a" testName="InvalidEmail_FailsValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0006830" startTime="2026-02-24T22:38:33.5478014+05:30" endTime="2026-02-24T22:38:33.5484846+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f20ae8e5-475e-42dc-a389-a7b8a4da195b" />
+    <UnitTestResult executionId="31b70f94-0b74-4ef0-b252-21e26dfee1fa" testId="43ddbb41-a27f-a1f9-52a1-b15b6a839444" testName="DeleteAsync_HappyPath_DeletesTask" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0053480" startTime="2026-02-24T22:38:33.3951501+05:30" endTime="2026-02-24T22:38:33.4004962+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31b70f94-0b74-4ef0-b252-21e26dfee1fa" />
+    <UnitTestResult executionId="7ad09eca-ddab-47c9-b5a9-ad91f527b1b1" testId="e7a18c9a-340f-c1cf-6625-031fcc26beef" testName="ReportDto_ColumnSummary_StructureIsCorrect" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0010380" startTime="2026-02-24T22:38:33.3155947+05:30" endTime="2026-02-24T22:38:33.3166324+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ad09eca-ddab-47c9-b5a9-ad91f527b1b1" />
+    <UnitTestResult executionId="77842d8d-c442-4eb1-b465-59fd1ac6c07e" testId="326b0802-7258-e53c-c0e6-a8dad6a1fb5e" testName="CreateAsync_HappyPath_ReturnsCreatedTask" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0669180" startTime="2026-02-24T22:38:33.3190927+05:30" endTime="2026-02-24T22:38:33.3860103+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77842d8d-c442-4eb1-b465-59fd1ac6c07e" />
+    <UnitTestResult executionId="547dcfcf-8e6e-4178-bb64-6454549374e0" testId="bd9e4f3e-7b52-0f55-6d3f-546a5e83b118" testName="Create_ReturnsCreatedResult" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0144390" startTime="2026-02-24T22:38:24.3090325+05:30" endTime="2026-02-24T22:38:24.3234712+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="547dcfcf-8e6e-4178-bb64-6454549374e0" />
+    <UnitTestResult executionId="00098590-3038-4ad8-a471-f79a6d5b7434" testId="2a0d0581-5584-e1e9-c724-247d1381ca53" testName="SoftDelete_EntityNotReturnedAfterDeletion" computerName="DESKTOP-G1HNGF2" duration="00:00:00.2992980" startTime="2026-02-24T22:38:29.0690211+05:30" endTime="2026-02-24T22:38:29.3683192+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00098590-3038-4ad8-a471-f79a6d5b7434" />
+    <UnitTestResult executionId="a4dc46f5-7893-4776-a4bf-1f7e41c94351" testId="17340d1e-ed0a-f44b-c8e7-8cbc7cd60f6e" testName="Register_ReturnsOkWithToken" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0141780" startTime="2026-02-24T22:38:24.2710011+05:30" endTime="2026-02-24T22:38:24.2851793+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4dc46f5-7893-4776-a4bf-1f7e41c94351" />
+    <UnitTestResult executionId="96757613-a261-4fb4-b1e5-46eb5ef0264a" testId="6d739f5f-6ffa-96e6-045e-02f4651d97f6" testName="GetMaxOrderAsync_ReturnsCorrectMaxOrder" computerName="DESKTOP-G1HNGF2" duration="00:00:00.4670870" startTime="2026-02-24T22:38:26.7847874+05:30" endTime="2026-02-24T22:38:27.2518741+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96757613-a261-4fb4-b1e5-46eb5ef0264a" />
+    <UnitTestResult executionId="89fc4a80-57e8-440a-9f62-ac9a241cb893" testId="391fde41-866f-c9ed-8610-d22cb898cdbc" testName="MoveAsync_HappyPath_MovesTask" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0091460" startTime="2026-02-24T22:38:33.4317477+05:30" endTime="2026-02-24T22:38:33.4408936+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89fc4a80-57e8-440a-9f62-ac9a241cb893" />
+    <UnitTestResult executionId="8ee602a1-c8e6-44ab-ac93-dcdad25c3240" testId="98c82147-8548-beab-b65c-d821ad810892" testName="ValidRequest_PassesValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0004100" startTime="2026-02-24T22:38:33.5492060+05:30" endTime="2026-02-24T22:38:33.5496161+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ee602a1-c8e6-44ab-ac93-dcdad25c3240" />
+    <UnitTestResult executionId="4fcc4b0b-8e00-4800-9a4f-faef65771be5" testId="b339ab77-a8ac-88bb-8da9-d25de7341d13" testName="Login_ReturnsOkWithToken" computerName="DESKTOP-G1HNGF2" duration="00:00:00.2331030" startTime="2026-02-24T22:38:24.0353239+05:30" endTime="2026-02-24T22:38:24.2683151+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fcc4b0b-8e00-4800-9a4f-faef65771be5" />
+    <UnitTestResult executionId="43b35c46-9d0b-4a80-bbeb-2bf38355be3d" testId="409dba67-0f1c-a0fd-1d97-6ca473a9f13a" testName="GetByIdAsync_HappyPath_ReturnsTask" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0189670" startTime="2026-02-24T22:38:33.4086349+05:30" endTime="2026-02-24T22:38:33.4276021+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43b35c46-9d0b-4a80-bbeb-2bf38355be3d" />
+    <UnitTestResult executionId="647d84b1-5782-48c9-9f36-302c5a69225c" testId="135886ba-aef5-8938-66ca-6375fee16354" testName="InvalidPriority_FailsValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0005340" startTime="2026-02-24T22:38:33.5350580+05:30" endTime="2026-02-24T22:38:33.5355915+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="647d84b1-5782-48c9-9f36-302c5a69225c" />
+    <UnitTestResult executionId="44a611ad-047a-4eff-b04d-e26fe9d493a5" testId="4b3d1ee5-a8d9-b597-d4c4-be95a52f4315" testName="EmptyColumnId_FailsValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0035640" startTime="2026-02-24T22:38:33.5308106+05:30" endTime="2026-02-24T22:38:33.5343743+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44a611ad-047a-4eff-b04d-e26fe9d493a5" />
+    <UnitTestResult executionId="7b14ac85-bdd2-4180-aaa8-b04cfdaf0b6f" testId="151b5913-ecd9-accc-ab19-a7500dc6fa04" testName="PasswordHash_ShouldNotEqualPlainText" computerName="DESKTOP-G1HNGF2" duration="00:00:01.1539890" startTime="2026-02-24T22:38:31.1942897+05:30" endTime="2026-02-24T22:38:32.3482779+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b14ac85-bdd2-4180-aaa8-b04cfdaf0b6f" />
+    <UnitTestResult executionId="b50fce3a-516d-478f-96bb-68822aff55e8" testId="56ecd9f6-af4a-3096-a672-aba6e8f91786" testName="Test1" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0102440" startTime="2026-02-24T22:38:33.4413100+05:30" endTime="2026-02-24T22:38:33.4515533+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b50fce3a-516d-478f-96bb-68822aff55e8" />
+    <UnitTestResult executionId="bc0f34e6-9d69-4acf-9bb0-aad3293599a5" testId="9de7b543-7ef7-1209-57c5-66a3ec8c6968" testName="LoginAsync_InvalidPassword_ThrowsUnauthorized" computerName="DESKTOP-G1HNGF2" duration="00:00:00.8779500" startTime="2026-02-24T22:38:30.3138606+05:30" endTime="2026-02-24T22:38:31.1918095+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc0f34e6-9d69-4acf-9bb0-aad3293599a5" />
+    <UnitTestResult executionId="3ff533d6-f9f8-4606-a4c7-098779d00fa8" testId="8ed9049c-a512-9c4d-9b58-46796155daf1" testName="RegisterAsync_DuplicateEmail_ThrowsValidationException" computerName="DESKTOP-G1HNGF2" duration="00:00:00.1792960" startTime="2026-02-24T22:38:32.3483325+05:30" endTime="2026-02-24T22:38:32.5276280+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ff533d6-f9f8-4606-a4c7-098779d00fa8">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected exception message to match the equivalent of "*already exists*", but "One or more validation errors occurred." does not.&#xD;
+</Message>
+          <StackTrace>   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)&#xD;
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)&#xD;
+   at FluentAssertions.Execution.AssertionScope.Dispose()&#xD;
+   at FluentAssertions.Specialized.ExceptionAssertions`1.ExceptionMessageAssertion.Execute(IEnumerable`1 messages, String expectation, String because, Object[] becauseArgs)&#xD;
+   at FluentAssertions.Specialized.ExceptionAssertions`1.ExceptionMessageAssertion.Execute(IEnumerable`1 messages, String expectation, String because, Object[] becauseArgs)&#xD;
+   at FluentAssertions.Specialized.ExceptionAssertions`1.WithMessage(String expectedWildcardPattern, String because, Object[] becauseArgs)&#xD;
+   at FluentAssertions.ExceptionAssertionsExtensions.WithMessage[TException](Task`1 task, String expectedWildcardPattern, String because, Object[] becauseArgs)&#xD;
+   at TaskBoard.Tests.Services.AuthServiceTests.RegisterAsync_DuplicateEmail_ThrowsValidationException() in c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\Services\AuthServiceTests.cs:line 83&#xD;
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()&#xD;
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)&#xD;
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)&#xD;
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)&#xD;
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)&#xD;
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.&lt;&gt;c__DisplayClass1_0.&lt;Execute&gt;b__0()&#xD;
+   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)&#xD;
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="00459830-df0b-47ff-ade0-0ff756e3434a" testId="172503d6-5817-48b0-928b-4a0c3f4044cd" testName="GetByIdAsync_NotFound_ThrowsNotFoundException" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0040660" startTime="2026-02-24T22:38:33.4276430+05:30" endTime="2026-02-24T22:38:33.4317090+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00459830-df0b-47ff-ade0-0ff756e3434a" />
+    <UnitTestResult executionId="c0bc3a93-287a-40ba-bca0-31d684043822" testId="05d51904-b0bb-f0f9-3106-d91288ab7edb" testName="GetCountByColumnAsync_ReturnsCorrectCount" computerName="DESKTOP-G1HNGF2" duration="00:00:00.4667250" startTime="2026-02-24T22:38:28.6022208+05:30" endTime="2026-02-24T22:38:29.0689456+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0bc3a93-287a-40ba-bca0-31d684043822" />
+    <UnitTestResult executionId="5d1446cc-166d-4e94-862c-38e03737bda7" testId="d4fbf122-ccb2-a07b-1647-c6bd55eddb06" testName="FullNameTooLong_FailsValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0013540" startTime="2026-02-24T22:38:33.5464012+05:30" endTime="2026-02-24T22:38:33.5477550+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d1446cc-166d-4e94-862c-38e03737bda7" />
+    <UnitTestResult executionId="d9a87e35-4247-481c-aa5a-aa5a75d03da8" testId="754002af-0ddb-f559-0dde-d24474d6cbd2" testName="Delete_ReturnsOk" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0087990" startTime="2026-02-24T22:38:24.2929650+05:30" endTime="2026-02-24T22:38:24.3017642+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9a87e35-4247-481c-aa5a-aa5a75d03da8" />
+    <UnitTestResult executionId="20ff05c7-495f-4d2e-ab69-993f424231ee" testId="bed6fca3-c353-6e93-df33-12f0b0ed9f4d" testName="GetMaxOrderAsync_NoColumns_ReturnsNegativeOne" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0642240" startTime="2026-02-24T22:38:26.7204981+05:30" endTime="2026-02-24T22:38:26.7847215+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20ff05c7-495f-4d2e-ab69-993f424231ee" />
+    <UnitTestResult executionId="4f9c6803-eb8a-4e89-be2f-278c6f55d9a5" testId="eccaf4aa-574c-2ee2-dbe0-45b30ee23347" testName="DeleteAsync_DifferentUser_ThrowsUnauthorized" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0090560" startTime="2026-02-24T22:38:33.3860551+05:30" endTime="2026-02-24T22:38:33.3951102+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f9c6803-eb8a-4e89-be2f-278c6f55d9a5" />
+    <UnitTestResult executionId="12e37569-0cec-4b51-ae10-1b01897c4a64" testId="a9365b9b-0efe-e5ce-2a98-9a5006a2736e" testName="DescriptionTooLong_FailsValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0784680" startTime="2026-02-24T22:38:33.4522360+05:30" endTime="2026-02-24T22:38:33.5307036+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12e37569-0cec-4b51-ae10-1b01897c4a64" />
+    <UnitTestResult executionId="0852a85d-30cc-4dbd-b1bc-d81ac9aeb0e3" testId="77e0a73f-475a-6bb2-bbe7-ce4e1feac210" testName="GetAll_ReturnsOkWithColumns" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0066360" startTime="2026-02-24T22:38:24.3017989+05:30" endTime="2026-02-24T22:38:24.3084347+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0852a85d-30cc-4dbd-b1bc-d81ac9aeb0e3" />
+    <UnitTestResult executionId="21d840f2-00f6-4c2b-86f1-dc2ebc92cfe9" testId="4d6a1852-1405-9ea0-8ab9-60270d04bc74" testName="DeleteAsync_EmptyColumn_Succeeds" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0131320" startTime="2026-02-24T22:38:33.2814356+05:30" endTime="2026-02-24T22:38:33.2945671+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21d840f2-00f6-4c2b-86f1-dc2ebc92cfe9" />
+    <UnitTestResult executionId="66265ea3-8699-4f64-bf5c-8e1b873f91ff" testId="3d04d1fb-5011-e6ae-e0ac-06581b69dba7" testName="RegisterAsync_HappyPath_ReturnsTokenAndUser" computerName="DESKTOP-G1HNGF2" duration="00:00:00.5904570" startTime="2026-02-24T22:38:32.5278674+05:30" endTime="2026-02-24T22:38:33.1183238+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66265ea3-8699-4f64-bf5c-8e1b873f91ff" />
+    <UnitTestResult executionId="520c3623-a0ce-41bf-aae5-6263d17c0184" testId="48d61336-e87b-cdf5-d26c-af271da6be7b" testName="TaskReportDto_DefaultValues_AreZero" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0020569" startTime="2026-02-24T22:38:33.3167180+05:30" endTime="2026-02-24T22:38:33.3187749+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="520c3623-a0ce-41bf-aae5-6263d17c0184" />
+    <UnitTestResult executionId="69a51863-09c8-440b-9f46-ea268048aceb" testId="72ea3bd2-4276-63b0-58a6-900ce26d778f" testName="EmptyTitle_FailsValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0006120" startTime="2026-02-24T22:38:33.5344154+05:30" endTime="2026-02-24T22:38:33.5350275+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69a51863-09c8-440b-9f46-ea268048aceb" />
+    <UnitTestResult executionId="bd831447-ca07-4f5b-b7b5-68fb13af88ea" testId="4a93104f-395a-742b-7c8e-dd28447c9c55" testName="LoginAsync_NonExistentEmail_ThrowsUnauthorized" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0023560" startTime="2026-02-24T22:38:31.1918889+05:30" endTime="2026-02-24T22:38:31.1942448+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd831447-ca07-4f5b-b7b5-68fb13af88ea" />
+    <UnitTestResult executionId="351d3499-506c-4f01-a4e9-1e9e888a0e73" testId="515d11b4-62f5-3d23-54f7-6a6f1de1cbd5" testName="GetSummaryAsync_MockService_ReturnsSummary" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0062390" startTime="2026-02-24T22:38:33.3093088+05:30" endTime="2026-02-24T22:38:33.3155467+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="351d3499-506c-4f01-a4e9-1e9e888a0e73" />
+    <UnitTestResult executionId="7eb94bf5-472d-48fb-b8e0-3dacc77ce073" testId="0975d79c-f6db-0ad0-18ba-646f25a6483c" testName="LoginAsync_HappyPath_ReturnsToken" computerName="DESKTOP-G1HNGF2" duration="00:00:00.9446080" startTime="2026-02-24T22:38:29.3691999+05:30" endTime="2026-02-24T22:38:30.3138076+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7eb94bf5-472d-48fb-b8e0-3dacc77ce073" />
+    <UnitTestResult executionId="3dd8b61f-206c-4436-a982-2dbf9d4ecd5a" testId="c567afa2-4f82-cb0a-243d-696a05d61dc9" testName="GetByColumnId_ReturnsColumnTasks" computerName="DESKTOP-G1HNGF2" duration="00:00:00.5755730" startTime="2026-02-24T22:38:27.2522495+05:30" endTime="2026-02-24T22:38:27.8278212+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dd8b61f-206c-4436-a982-2dbf9d4ecd5a" />
+    <UnitTestResult executionId="7d808411-bf31-413d-ab49-994d1489aaeb" testId="44b45a10-fc52-8816-b96f-9b34d70c576c" testName="DeleteAsync_WithTasks_ThrowsValidationException" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0063820" startTime="2026-02-24T22:38:33.2946097+05:30" endTime="2026-02-24T22:38:33.3009910+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d808411-bf31-413d-ab49-994d1489aaeb">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected exception message to match the equivalent of "*Cannot delete*", but "One or more validation errors occurred." does not.&#xD;
+</Message>
+          <StackTrace>   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)&#xD;
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)&#xD;
+   at FluentAssertions.Execution.AssertionScope.Dispose()&#xD;
+   at FluentAssertions.Specialized.ExceptionAssertions`1.ExceptionMessageAssertion.Execute(IEnumerable`1 messages, String expectation, String because, Object[] becauseArgs)&#xD;
+   at FluentAssertions.Specialized.ExceptionAssertions`1.ExceptionMessageAssertion.Execute(IEnumerable`1 messages, String expectation, String because, Object[] becauseArgs)&#xD;
+   at FluentAssertions.Specialized.ExceptionAssertions`1.WithMessage(String expectedWildcardPattern, String because, Object[] becauseArgs)&#xD;
+   at FluentAssertions.ExceptionAssertionsExtensions.WithMessage[TException](Task`1 task, String expectedWildcardPattern, String because, Object[] becauseArgs)&#xD;
+   at TaskBoard.Tests.Services.ColumnServiceTests.DeleteAsync_WithTasks_ThrowsValidationException() in c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\Services\ColumnServiceTests.cs:line 80&#xD;
+   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()&#xD;
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)&#xD;
+   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)&#xD;
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)&#xD;
+   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)&#xD;
+   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.&lt;&gt;c__DisplayClass1_0.&lt;Execute&gt;b__0()&#xD;
+   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)&#xD;
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7daed07a-f0fa-464a-9d93-fd3990bf2261" testId="5293a8c6-9a3c-c017-b76a-781ec9243eed" testName="ValidTask_PassesValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0011290" startTime="2026-02-24T22:38:33.5361858+05:30" endTime="2026-02-24T22:38:33.5373137+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7daed07a-f0fa-464a-9d93-fd3990bf2261" />
+    <UnitTestResult executionId="857a4333-a1cc-4b60-bfc0-bb3197f9a4db" testId="2b37d42e-77ee-89a7-3f03-b28a5bd00b5f" testName="GetAll_ReturnsOkWithPaginatedResult" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0147450" startTime="2026-02-24T22:38:24.3282332+05:30" endTime="2026-02-24T22:38:24.3429771+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="857a4333-a1cc-4b60-bfc0-bb3197f9a4db" />
+    <UnitTestResult executionId="bd7afa4b-c6c3-4d1a-af54-1b54aadd034c" testId="5a1cfca3-23c8-7e4e-fedc-d7fcb87cb66f" testName="Delete_ReturnsOk" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0046840" startTime="2026-02-24T22:38:24.3235137+05:30" endTime="2026-02-24T22:38:24.3281975+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd7afa4b-c6c3-4d1a-af54-1b54aadd034c" />
+    <UnitTestResult executionId="011c771e-9eac-478e-9fe8-6ada10f89e51" testId="c82b3d10-0299-0edd-04a1-31b89703b138" testName="TitleTooLong_FailsValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0005380" startTime="2026-02-24T22:38:33.5356194+05:30" endTime="2026-02-24T22:38:33.5361574+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="011c771e-9eac-478e-9fe8-6ada10f89e51" />
+    <UnitTestResult executionId="4e841ee9-b7ec-4c95-89fd-964aac0109d3" testId="65e9b914-bcb4-4fab-d331-273290a56868" testName="EmptyEmail_FailsValidation" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0087730" startTime="2026-02-24T22:38:33.5375658+05:30" endTime="2026-02-24T22:38:33.5463344+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e841ee9-b7ec-4c95-89fd-964aac0109d3" />
+    <UnitTestResult executionId="1f5af5d9-46ee-4c28-95f9-d6cd4988d4dc" testId="bcfa6285-9981-717b-2d20-2ea409830684" testName="UpdateAsync_NotFound_ThrowsNotFoundException" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0080059" startTime="2026-02-24T22:38:33.3010339+05:30" endTime="2026-02-24T22:38:33.3090399+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f5af5d9-46ee-4c28-95f9-d6cd4988d4dc" />
+    <UnitTestResult executionId="ebcea3b9-5c94-4f63-b857-c0ba90908a20" testId="23911ce1-5a0f-3fdb-b9d1-01eba3b2aac5" testName="DeleteAsync_DifferentUser_ThrowsUnauthorized" computerName="DESKTOP-G1HNGF2" duration="00:00:00.0092030" startTime="2026-02-24T22:38:33.2721839+05:30" endTime="2026-02-24T22:38:33.2813870+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebcea3b9-5c94-4f63-b857-c0ba90908a20" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MoveAsync_HappyPath_MovesTask" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="391fde41-866f-c9ed-8610-d22cb898cdbc">
+      <Execution id="89fc4a80-57e8-440a-9f62-ac9a241cb893" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.TaskServiceTests" name="MoveAsync_HappyPath_MovesTask" />
+    </UnitTest>
+    <UnitTest name="PasswordMismatch_FailsValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="996c3c3a-6d16-d487-5745-7f8ec649da4e">
+      <Execution id="6224a8ef-def1-4bf9-860e-720e7feb37bd" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.RegisterRequestValidatorTests" name="PasswordMismatch_FailsValidation" />
+    </UnitTest>
+    <UnitTest name="InvalidEmail_FailsValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="f1b69833-165e-3b49-c6a5-eda523f0858a">
+      <Execution id="f20ae8e5-475e-42dc-a389-a7b8a4da195b" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.RegisterRequestValidatorTests" name="InvalidEmail_FailsValidation" />
+    </UnitTest>
+    <UnitTest name="GetByUserId_ReturnsOnlyUserColumns" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="069a5a73-851f-0930-47d6-671b0fa72cf0">
+      <Execution id="98a7fe94-0655-4523-932a-7a73953148d6" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Repositories.ColumnRepositoryTests" name="GetByUserId_ReturnsOnlyUserColumns" />
+    </UnitTest>
+    <UnitTest name="LoginAsync_InvalidPassword_ThrowsUnauthorized" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="9de7b543-7ef7-1209-57c5-66a3ec8c6968">
+      <Execution id="bc0f34e6-9d69-4acf-9bb0-aad3293599a5" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.AuthServiceTests" name="LoginAsync_InvalidPassword_ThrowsUnauthorized" />
+    </UnitTest>
+    <UnitTest name="ReportDto_ColumnSummary_StructureIsCorrect" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="e7a18c9a-340f-c1cf-6625-031fcc26beef">
+      <Execution id="7ad09eca-ddab-47c9-b5a9-ad91f527b1b1" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.ReportServiceTests" name="ReportDto_ColumnSummary_StructureIsCorrect" />
+    </UnitTest>
+    <UnitTest name="GetAll_ReturnsOkWithPaginatedResult" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="2b37d42e-77ee-89a7-3f03-b28a5bd00b5f">
+      <Execution id="857a4333-a1cc-4b60-bfc0-bb3197f9a4db" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Controllers.TasksControllerTests" name="GetAll_ReturnsOkWithPaginatedResult" />
+    </UnitTest>
+    <UnitTest name="DeleteAsync_EmptyColumn_Succeeds" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="4d6a1852-1405-9ea0-8ab9-60270d04bc74">
+      <Execution id="21d840f2-00f6-4c2b-86f1-dc2ebc92cfe9" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.ColumnServiceTests" name="DeleteAsync_EmptyColumn_Succeeds" />
+    </UnitTest>
+    <UnitTest name="TaskReportDto_DefaultValues_AreZero" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="48d61336-e87b-cdf5-d26c-af271da6be7b">
+      <Execution id="520c3623-a0ce-41bf-aae5-6263d17c0184" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.ReportServiceTests" name="TaskReportDto_DefaultValues_AreZero" />
+    </UnitTest>
+    <UnitTest name="RegisterAsync_HappyPath_ReturnsTokenAndUser" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="3d04d1fb-5011-e6ae-e0ac-06581b69dba7">
+      <Execution id="66265ea3-8699-4f64-bf5c-8e1b873f91ff" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.AuthServiceTests" name="RegisterAsync_HappyPath_ReturnsTokenAndUser" />
+    </UnitTest>
+    <UnitTest name="GetByIdAsync_NotFound_ThrowsNotFoundException" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="172503d6-5817-48b0-928b-4a0c3f4044cd">
+      <Execution id="00459830-df0b-47ff-ade0-0ff756e3434a" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.TaskServiceTests" name="GetByIdAsync_NotFound_ThrowsNotFoundException" />
+    </UnitTest>
+    <UnitTest name="GetCountByColumnAsync_ReturnsCorrectCount" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="05d51904-b0bb-f0f9-3106-d91288ab7edb">
+      <Execution id="c0bc3a93-287a-40ba-bca0-31d684043822" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Repositories.TaskRepositoryTests" name="GetCountByColumnAsync_ReturnsCorrectCount" />
+    </UnitTest>
+    <UnitTest name="ValidTask_PassesValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="5293a8c6-9a3c-c017-b76a-781ec9243eed">
+      <Execution id="7daed07a-f0fa-464a-9d93-fd3990bf2261" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.CreateTaskValidatorTests" name="ValidTask_PassesValidation" />
+    </UnitTest>
+    <UnitTest name="GetByIdAsync_DifferentUser_ThrowsUnauthorized" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="c3211e07-63bf-5453-ddc0-2645c2bd023b">
+      <Execution id="830040a2-a989-487b-ac11-3052814a75cb" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.TaskServiceTests" name="GetByIdAsync_DifferentUser_ThrowsUnauthorized" />
+    </UnitTest>
+    <UnitTest name="Delete_ReturnsOk" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="754002af-0ddb-f559-0dde-d24474d6cbd2">
+      <Execution id="d9a87e35-4247-481c-aa5a-aa5a75d03da8" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Controllers.ColumnsControllerTests" name="Delete_ReturnsOk" />
+    </UnitTest>
+    <UnitTest name="GetMaxOrderAsync_ReturnsCorrectMaxOrder" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="6d739f5f-6ffa-96e6-045e-02f4651d97f6">
+      <Execution id="96757613-a261-4fb4-b1e5-46eb5ef0264a" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Repositories.ColumnRepositoryTests" name="GetMaxOrderAsync_ReturnsCorrectMaxOrder" />
+    </UnitTest>
+    <UnitTest name="EmptyColumnId_FailsValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="4b3d1ee5-a8d9-b597-d4c4-be95a52f4315">
+      <Execution id="44a611ad-047a-4eff-b04d-e26fe9d493a5" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.CreateTaskValidatorTests" name="EmptyColumnId_FailsValidation" />
+    </UnitTest>
+    <UnitTest name="DeleteAsync_DifferentUser_ThrowsUnauthorized" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="23911ce1-5a0f-3fdb-b9d1-01eba3b2aac5">
+      <Execution id="ebcea3b9-5c94-4f63-b857-c0ba90908a20" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.ColumnServiceTests" name="DeleteAsync_DifferentUser_ThrowsUnauthorized" />
+    </UnitTest>
+    <UnitTest name="ValidRequest_PassesValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="98c82147-8548-beab-b65c-d821ad810892">
+      <Execution id="8ee602a1-c8e6-44ab-ac93-dcdad25c3240" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.RegisterRequestValidatorTests" name="ValidRequest_PassesValidation" />
+    </UnitTest>
+    <UnitTest name="EmptyEmail_FailsValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="65e9b914-bcb4-4fab-d331-273290a56868">
+      <Execution id="4e841ee9-b7ec-4c95-89fd-964aac0109d3" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.RegisterRequestValidatorTests" name="EmptyEmail_FailsValidation" />
+    </UnitTest>
+    <UnitTest name="DescriptionTooLong_FailsValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="a9365b9b-0efe-e5ce-2a98-9a5006a2736e">
+      <Execution id="12e37569-0cec-4b51-ae10-1b01897c4a64" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.CreateTaskValidatorTests" name="DescriptionTooLong_FailsValidation" />
+    </UnitTest>
+    <UnitTest name="DeleteAsync_WithTasks_ThrowsValidationException" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="44b45a10-fc52-8816-b96f-9b34d70c576c">
+      <Execution id="7d808411-bf31-413d-ab49-994d1489aaeb" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.ColumnServiceTests" name="DeleteAsync_WithTasks_ThrowsValidationException" />
+    </UnitTest>
+    <UnitTest name="Delete_ReturnsOk" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="5a1cfca3-23c8-7e4e-fedc-d7fcb87cb66f">
+      <Execution id="bd7afa4b-c6c3-4d1a-af54-1b54aadd034c" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Controllers.TasksControllerTests" name="Delete_ReturnsOk" />
+    </UnitTest>
+    <UnitTest name="PasswordHash_ShouldNotEqualPlainText" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="151b5913-ecd9-accc-ab19-a7500dc6fa04">
+      <Execution id="7b14ac85-bdd2-4180-aaa8-b04cfdaf0b6f" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.AuthServiceTests" name="PasswordHash_ShouldNotEqualPlainText" />
+    </UnitTest>
+    <UnitTest name="GetByUserId_ReturnsOnlyUserTasks" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="9573cabf-641a-bf2e-82ca-d79b2d442039">
+      <Execution id="3f4e92ab-6e36-4475-ae3b-c55a1668d4c3" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Repositories.TaskRepositoryTests" name="GetByUserId_ReturnsOnlyUserTasks" />
+    </UnitTest>
+    <UnitTest name="Login_ReturnsOkWithToken" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="b339ab77-a8ac-88bb-8da9-d25de7341d13">
+      <Execution id="4fcc4b0b-8e00-4800-9a4f-faef65771be5" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Controllers.AuthControllerTests" name="Login_ReturnsOkWithToken" />
+    </UnitTest>
+    <UnitTest name="GetSummaryAsync_MockService_ReturnsSummary" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="515d11b4-62f5-3d23-54f7-6a6f1de1cbd5">
+      <Execution id="351d3499-506c-4f01-a4e9-1e9e888a0e73" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.ReportServiceTests" name="GetSummaryAsync_MockService_ReturnsSummary" />
+    </UnitTest>
+    <UnitTest name="GetByColumnId_ReturnsColumnTasks" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="c567afa2-4f82-cb0a-243d-696a05d61dc9">
+      <Execution id="3dd8b61f-206c-4436-a982-2dbf9d4ecd5a" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Repositories.TaskRepositoryTests" name="GetByColumnId_ReturnsColumnTasks" />
+    </UnitTest>
+    <UnitTest name="Create_ReturnsCreatedResult" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="bd9e4f3e-7b52-0f55-6d3f-546a5e83b118">
+      <Execution id="547dcfcf-8e6e-4178-bb64-6454549374e0" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Controllers.TasksControllerTests" name="Create_ReturnsCreatedResult" />
+    </UnitTest>
+    <UnitTest name="FullNameTooLong_FailsValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="d4fbf122-ccb2-a07b-1647-c6bd55eddb06">
+      <Execution id="5d1446cc-166d-4e94-862c-38e03737bda7" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.RegisterRequestValidatorTests" name="FullNameTooLong_FailsValidation" />
+    </UnitTest>
+    <UnitTest name="TitleTooLong_FailsValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="c82b3d10-0299-0edd-04a1-31b89703b138">
+      <Execution id="011c771e-9eac-478e-9fe8-6ada10f89e51" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.CreateTaskValidatorTests" name="TitleTooLong_FailsValidation" />
+    </UnitTest>
+    <UnitTest name="CreateAsync_HappyPath_ReturnsCreatedTask" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="326b0802-7258-e53c-c0e6-a8dad6a1fb5e">
+      <Execution id="77842d8d-c442-4eb1-b465-59fd1ac6c07e" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.TaskServiceTests" name="CreateAsync_HappyPath_ReturnsCreatedTask" />
+    </UnitTest>
+    <UnitTest name="DeleteAsync_HappyPath_DeletesTask" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="43ddbb41-a27f-a1f9-52a1-b15b6a839444">
+      <Execution id="31b70f94-0b74-4ef0-b252-21e26dfee1fa" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.TaskServiceTests" name="DeleteAsync_HappyPath_DeletesTask" />
+    </UnitTest>
+    <UnitTest name="GetAll_ReturnsOkWithColumns" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="77e0a73f-475a-6bb2-bbe7-ce4e1feac210">
+      <Execution id="0852a85d-30cc-4dbd-b1bc-d81ac9aeb0e3" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Controllers.ColumnsControllerTests" name="GetAll_ReturnsOkWithColumns" />
+    </UnitTest>
+    <UnitTest name="GetByIdAsync_HappyPath_ReturnsTask" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="409dba67-0f1c-a0fd-1d97-6ca473a9f13a">
+      <Execution id="43b35c46-9d0b-4a80-bbeb-2bf38355be3d" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.TaskServiceTests" name="GetByIdAsync_HappyPath_ReturnsTask" />
+    </UnitTest>
+    <UnitTest name="LoginAsync_HappyPath_ReturnsToken" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="0975d79c-f6db-0ad0-18ba-646f25a6483c">
+      <Execution id="7eb94bf5-472d-48fb-b8e0-3dacc77ce073" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.AuthServiceTests" name="LoginAsync_HappyPath_ReturnsToken" />
+    </UnitTest>
+    <UnitTest name="Register_ReturnsOkWithToken" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="17340d1e-ed0a-f44b-c8e7-8cbc7cd60f6e">
+      <Execution id="a4dc46f5-7893-4776-a4bf-1f7e41c94351" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Controllers.AuthControllerTests" name="Register_ReturnsOkWithToken" />
+    </UnitTest>
+    <UnitTest name="Test1" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="56ecd9f6-af4a-3096-a672-aba6e8f91786">
+      <Execution id="b50fce3a-516d-478f-96bb-68822aff55e8" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Tests" name="Test1" />
+    </UnitTest>
+    <UnitTest name="GetMaxOrderAsync_NoColumns_ReturnsNegativeOne" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="bed6fca3-c353-6e93-df33-12f0b0ed9f4d">
+      <Execution id="20ff05c7-495f-4d2e-ab69-993f424231ee" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Repositories.ColumnRepositoryTests" name="GetMaxOrderAsync_NoColumns_ReturnsNegativeOne" />
+    </UnitTest>
+    <UnitTest name="WeakPassword_FailsValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="1d6f4efc-8f97-b665-a382-2e344a6e0089">
+      <Execution id="7c0b5524-8e54-47de-8982-b2e84c459d7b" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.RegisterRequestValidatorTests" name="WeakPassword_FailsValidation" />
+    </UnitTest>
+    <UnitTest name="RegisterAsync_DuplicateEmail_ThrowsValidationException" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="8ed9049c-a512-9c4d-9b58-46796155daf1">
+      <Execution id="3ff533d6-f9f8-4606-a4c7-098779d00fa8" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.AuthServiceTests" name="RegisterAsync_DuplicateEmail_ThrowsValidationException" />
+    </UnitTest>
+    <UnitTest name="EmptyTitle_FailsValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="72ea3bd2-4276-63b0-58a6-900ce26d778f">
+      <Execution id="69a51863-09c8-440b-9f46-ea268048aceb" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.CreateTaskValidatorTests" name="EmptyTitle_FailsValidation" />
+    </UnitTest>
+    <UnitTest name="DeleteAsync_DifferentUser_ThrowsUnauthorized" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="eccaf4aa-574c-2ee2-dbe0-45b30ee23347">
+      <Execution id="4f9c6803-eb8a-4e89-be2f-278c6f55d9a5" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.TaskServiceTests" name="DeleteAsync_DifferentUser_ThrowsUnauthorized" />
+    </UnitTest>
+    <UnitTest name="UpdateAsync_NotFound_ThrowsNotFoundException" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="bcfa6285-9981-717b-2d20-2ea409830684">
+      <Execution id="1f5af5d9-46ee-4c28-95f9-d6cd4988d4dc" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.ColumnServiceTests" name="UpdateAsync_NotFound_ThrowsNotFoundException" />
+    </UnitTest>
+    <UnitTest name="CreateAsync_HappyPath_ReturnsNewColumn" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="1d3cac6a-ab15-47d0-4b12-01f7956135f9">
+      <Execution id="7e6b3e37-ff05-4313-a1ed-583845a27508" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.ColumnServiceTests" name="CreateAsync_HappyPath_ReturnsNewColumn" />
+    </UnitTest>
+    <UnitTest name="SoftDelete_EntityNotReturnedAfterDeletion" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="2a0d0581-5584-e1e9-c724-247d1381ca53">
+      <Execution id="00098590-3038-4ad8-a471-f79a6d5b7434" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Repositories.TaskRepositoryTests" name="SoftDelete_EntityNotReturnedAfterDeletion" />
+    </UnitTest>
+    <UnitTest name="InvalidPriority_FailsValidation" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="135886ba-aef5-8938-66ca-6375fee16354">
+      <Execution id="647d84b1-5782-48c9-9f36-302c5a69225c" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Validators.CreateTaskValidatorTests" name="InvalidPriority_FailsValidation" />
+    </UnitTest>
+    <UnitTest name="LoginAsync_NonExistentEmail_ThrowsUnauthorized" storage="c:\users\etr infotech\desktop\task_board\taskboard\taskboard.tests\bin\debug\net10.0\taskboard.tests.dll" id="4a93104f-395a-742b-7c8e-dd28447c9c55">
+      <Execution id="bd831447-ca07-4f5b-b7b5-68fb13af88ea" />
+      <TestMethod codeBase="c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="TaskBoard.Tests.Services.AuthServiceTests" name="LoginAsync_NonExistentEmail_ThrowsUnauthorized" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="996c3c3a-6d16-d487-5745-7f8ec649da4e" executionId="6224a8ef-def1-4bf9-860e-720e7feb37bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d3cac6a-ab15-47d0-4b12-01f7956135f9" executionId="7e6b3e37-ff05-4313-a1ed-583845a27508" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d6f4efc-8f97-b665-a382-2e344a6e0089" executionId="7c0b5524-8e54-47de-8982-b2e84c459d7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="069a5a73-851f-0930-47d6-671b0fa72cf0" executionId="98a7fe94-0655-4523-932a-7a73953148d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3211e07-63bf-5453-ddc0-2645c2bd023b" executionId="830040a2-a989-487b-ac11-3052814a75cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9573cabf-641a-bf2e-82ca-d79b2d442039" executionId="3f4e92ab-6e36-4475-ae3b-c55a1668d4c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1b69833-165e-3b49-c6a5-eda523f0858a" executionId="f20ae8e5-475e-42dc-a389-a7b8a4da195b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43ddbb41-a27f-a1f9-52a1-b15b6a839444" executionId="31b70f94-0b74-4ef0-b252-21e26dfee1fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7a18c9a-340f-c1cf-6625-031fcc26beef" executionId="7ad09eca-ddab-47c9-b5a9-ad91f527b1b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="326b0802-7258-e53c-c0e6-a8dad6a1fb5e" executionId="77842d8d-c442-4eb1-b465-59fd1ac6c07e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd9e4f3e-7b52-0f55-6d3f-546a5e83b118" executionId="547dcfcf-8e6e-4178-bb64-6454549374e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a0d0581-5584-e1e9-c724-247d1381ca53" executionId="00098590-3038-4ad8-a471-f79a6d5b7434" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17340d1e-ed0a-f44b-c8e7-8cbc7cd60f6e" executionId="a4dc46f5-7893-4776-a4bf-1f7e41c94351" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d739f5f-6ffa-96e6-045e-02f4651d97f6" executionId="96757613-a261-4fb4-b1e5-46eb5ef0264a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="391fde41-866f-c9ed-8610-d22cb898cdbc" executionId="89fc4a80-57e8-440a-9f62-ac9a241cb893" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98c82147-8548-beab-b65c-d821ad810892" executionId="8ee602a1-c8e6-44ab-ac93-dcdad25c3240" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b339ab77-a8ac-88bb-8da9-d25de7341d13" executionId="4fcc4b0b-8e00-4800-9a4f-faef65771be5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="409dba67-0f1c-a0fd-1d97-6ca473a9f13a" executionId="43b35c46-9d0b-4a80-bbeb-2bf38355be3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="135886ba-aef5-8938-66ca-6375fee16354" executionId="647d84b1-5782-48c9-9f36-302c5a69225c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b3d1ee5-a8d9-b597-d4c4-be95a52f4315" executionId="44a611ad-047a-4eff-b04d-e26fe9d493a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="151b5913-ecd9-accc-ab19-a7500dc6fa04" executionId="7b14ac85-bdd2-4180-aaa8-b04cfdaf0b6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56ecd9f6-af4a-3096-a672-aba6e8f91786" executionId="b50fce3a-516d-478f-96bb-68822aff55e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9de7b543-7ef7-1209-57c5-66a3ec8c6968" executionId="bc0f34e6-9d69-4acf-9bb0-aad3293599a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ed9049c-a512-9c4d-9b58-46796155daf1" executionId="3ff533d6-f9f8-4606-a4c7-098779d00fa8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="172503d6-5817-48b0-928b-4a0c3f4044cd" executionId="00459830-df0b-47ff-ade0-0ff756e3434a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05d51904-b0bb-f0f9-3106-d91288ab7edb" executionId="c0bc3a93-287a-40ba-bca0-31d684043822" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4fbf122-ccb2-a07b-1647-c6bd55eddb06" executionId="5d1446cc-166d-4e94-862c-38e03737bda7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="754002af-0ddb-f559-0dde-d24474d6cbd2" executionId="d9a87e35-4247-481c-aa5a-aa5a75d03da8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bed6fca3-c353-6e93-df33-12f0b0ed9f4d" executionId="20ff05c7-495f-4d2e-ab69-993f424231ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eccaf4aa-574c-2ee2-dbe0-45b30ee23347" executionId="4f9c6803-eb8a-4e89-be2f-278c6f55d9a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9365b9b-0efe-e5ce-2a98-9a5006a2736e" executionId="12e37569-0cec-4b51-ae10-1b01897c4a64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77e0a73f-475a-6bb2-bbe7-ce4e1feac210" executionId="0852a85d-30cc-4dbd-b1bc-d81ac9aeb0e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d6a1852-1405-9ea0-8ab9-60270d04bc74" executionId="21d840f2-00f6-4c2b-86f1-dc2ebc92cfe9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d04d1fb-5011-e6ae-e0ac-06581b69dba7" executionId="66265ea3-8699-4f64-bf5c-8e1b873f91ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48d61336-e87b-cdf5-d26c-af271da6be7b" executionId="520c3623-a0ce-41bf-aae5-6263d17c0184" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72ea3bd2-4276-63b0-58a6-900ce26d778f" executionId="69a51863-09c8-440b-9f46-ea268048aceb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a93104f-395a-742b-7c8e-dd28447c9c55" executionId="bd831447-ca07-4f5b-b7b5-68fb13af88ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="515d11b4-62f5-3d23-54f7-6a6f1de1cbd5" executionId="351d3499-506c-4f01-a4e9-1e9e888a0e73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0975d79c-f6db-0ad0-18ba-646f25a6483c" executionId="7eb94bf5-472d-48fb-b8e0-3dacc77ce073" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c567afa2-4f82-cb0a-243d-696a05d61dc9" executionId="3dd8b61f-206c-4436-a982-2dbf9d4ecd5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44b45a10-fc52-8816-b96f-9b34d70c576c" executionId="7d808411-bf31-413d-ab49-994d1489aaeb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5293a8c6-9a3c-c017-b76a-781ec9243eed" executionId="7daed07a-f0fa-464a-9d93-fd3990bf2261" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b37d42e-77ee-89a7-3f03-b28a5bd00b5f" executionId="857a4333-a1cc-4b60-bfc0-bb3197f9a4db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a1cfca3-23c8-7e4e-fedc-d7fcb87cb66f" executionId="bd7afa4b-c6c3-4d1a-af54-1b54aadd034c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c82b3d10-0299-0edd-04a1-31b89703b138" executionId="011c771e-9eac-478e-9fe8-6ada10f89e51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65e9b914-bcb4-4fab-d331-273290a56868" executionId="4e841ee9-b7ec-4c95-89fd-964aac0109d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcfa6285-9981-717b-2d20-2ea409830684" executionId="1f5af5d9-46ee-4c28-95f9-d6cd4988d4dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23911ce1-5a0f-3fdb-b9d1-01eba3b2aac5" executionId="ebcea3b9-5c94-4f63-b857-c0ba90908a20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="48" executed="48" passed="46" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 5.2.0.0: Test execution started&#xD;
+Running all tests in c:\Users\ETR Infotech\Desktop\task_board\TaskBoard\TaskBoard.Tests\bin\Debug\net10.0\TaskBoard.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 48 of 48 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 5.2.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

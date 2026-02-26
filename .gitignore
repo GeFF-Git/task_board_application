@@ -1,0 +1,91 @@
+# =========================
+# Common .gitignore for Task Board Monorepo
+# Includes rules for Node/Angular and .NET
+# =========================
+
+# === Angular / Node.js ===
+
+# Compiled output
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Miscellaneous
+.angular/
+.sass-cache/
+connect.lock
+coverage/
+libpeerconnection.log
+testem.log
+typings/
+__screenshots__/
+
+# === .NET / Visual Studio ===
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017/2019/2022 cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results of an auto-generated project
+*.dbmdl
+*.jfm
+
+# Profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Roslyn cache directories
+*.ide/
+
+# API specific
+appsettings.Development.json
+appsettings.Development.*.json
+
+# === IDEs, Editors and OS ===
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# JetBrains / Rider / WebStorm
+.idea/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db

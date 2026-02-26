@@ -1,0 +1,33 @@
+﻿
+> task-board@0.0.0 test
+> ng test
+
+node.exe : FAIL src/app/app.spec.ts
+At C:\Program Files\nodejs\npm.ps1:29 char:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpec    ified: (FAIL src/app/app.spec.ts:    
+String) [], RemoteException
+    + FullyQualifiedErrorId : NativeC    ommandError
+ 
+  ΓùÅ Test suite failed to run
+
+    Cannot find module '@angular/platform-browser-dynamic/testing' from 
+'node_modules/jest-preset-angular/setup-env/zoneless/index.js'
+
+    Require stack:
+      node_modules/jest-preset-angular/setup-env/zoneless/index.js
+      node_modules/@angular-builders/jest/dist/jest-config/setup-zoneless.js
+
+      at Resolver._throwModNotFoundError 
+(node_modules/jest-resolve/build/index.js:863:11)
+      at Object.<anonymous> 
+(node_modules/jest-preset-angular/setup-env/zoneless/index.js:8:5)
+      at Object.<anonymous> 
+(node_modules/@angular-builders/jest/src/jest-config/setup-zoneless.ts:1:1)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        4.692 s
+Ran all test suites.

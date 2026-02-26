@@ -1,0 +1,195 @@
+﻿node.exe : FAIL src/app/app.spec.ts (6.456 s)
+At C:\Program Files\nodejs\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (FAIL src/app/app.spe 
+   c.ts (6.456 s):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  AppComponent
+    ├ù should create the app (12 ms)
+    ├ù should return true for isStandaloneRoute when url is 
+/login (174 ms)
+    ├ù should return true for isStandaloneRoute when url is 
+/signup (3 ms)
+    ├ù should return false for isStandaloneRoute for other urls 
+(2 ms)
+
+  ΓùÅ AppComponent ΓÇ║ should create the app
+
+    Need to call TestBed.initTestEnvironment() first
+
+    [0m [90m 25 |[39m     }[33m;[39m
+     [90m 26 |[39m
+    [31m[1m>[22m[39m[90m 27 |[39m     [36mawait[39m 
+[33mTestBed[39m[33m.[39mconfigureTestingModule({
+     [90m    |[39m                   [31m[1m^[22m[39m
+     [90m 28 |[39m       imports[33m:[39m 
+[[33mAppComponent[39m[33m,[39m 
+[33mMockSidebarComponent[39m[33m,[39m 
+[33mMockTopbarComponent[39m][33m,[39m
+     [90m 29 |[39m       providers[33m:[39m [
+     [90m 30 |[39m         { provide[33m:[39m 
+[33mRouter[39m[33m,[39m useValue[33m:[39m mockRouter 
+}[33m,[39m[0m
+
+      at _TestBedImpl.get compiler [as compiler] 
+(node_modules/@angular/core/fesm2022/testing.mjs:1486:13)
+      at _TestBedImpl.configureTestingModule 
+(node_modules/@angular/core/fesm2022/testing.mjs:1402:10)
+      at Function.configureTestingModule 
+(node_modules/@angular/core/fesm2022/testing.mjs:1273:33)
+      at Object.<anonymous> (src/app/app.spec.ts:27:19)
+
+  ΓùÅ AppComponent ΓÇ║ should return true for isStandaloneRoute 
+when url is /login
+
+    TypeError: Cannot read properties of null (reading 'ngModule')
+
+    [0m [90m 38 |[39m     
+[33m.[39mcompileComponents()[33m;[39m
+     [90m 39 |[39m
+    [31m[1m>[22m[39m[90m 40 |[39m     fixture [33m=[39m [
+33mTestBed[39m[33m.[39mcreateComponent([33mAppComponent[39m)
+[33m;[39m
+     [90m    |[39m                       [31m[1m^[22m[39m
+     [90m 41 |[39m     component [33m=[39m 
+fixture[33m.[39mcomponentInstance[33m;[39m
+     [90m 42 |[39m     
+fixture[33m.[39mdetectChanges()[33m;[39m
+     [90m 43 |[39m   })[33m;[39m[0m
+
+      at isModuleWithProviders (node_modules/@angular/core/fesm202
+2/_debug_node-chunk.mjs:7259:16)
+      at expandModuleWithProviders (node_modules/@angular/core/fes
+m2022/_debug_node-chunk.mjs:17797:7)
+          at Array.map (<anonymous>)
+      at Function.get (node_modules/@angular/core/fesm2022/_debug_
+node-chunk.mjs:17512:84)
+      at getNgModuleDef 
+(node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:476:10)
+      at getNgModuleDefOrThrow 
+(node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:479:23)
+      at verifySemanticsOfNgModuleDef (node_modules/@angular/core/
+fesm2022/_debug_node-chunk.mjs:17585:19)
+      at Function.get (node_modules/@angular/core/fesm2022/_debug_
+node-chunk.mjs:17549:22)
+      at TestBedCompiler.applyProviderOverridesInScope 
+(node_modules/@angular/core/fesm2022/testing.mjs:825:25)
+      at TestBedCompiler.compileTestModule 
+(node_modules/@angular/core/fesm2022/testing.mjs:1065:10)
+      at TestBedCompiler.finalize 
+(node_modules/@angular/core/fesm2022/testing.mjs:704:10)
+      at _TestBedImpl.get testModuleRef [as testModuleRef] 
+(node_modules/@angular/core/fesm2022/testing.mjs:1492:43)
+      at _TestBedImpl.inject 
+(node_modules/@angular/core/fesm2022/testing.mjs:1413:25)
+      at _TestBedImpl.createComponent 
+(node_modules/@angular/core/fesm2022/testing.mjs:1465:40)
+      at Function.createComponent 
+(node_modules/@angular/core/fesm2022/testing.mjs:1306:33)
+      at Object.<anonymous> (src/app/app.spec.ts:40:23)
+
+  ΓùÅ AppComponent ΓÇ║ should return true for isStandaloneRoute 
+when url is /signup
+
+    TypeError: Cannot read properties of null (reading 'ngModule')
+
+    [0m [90m 38 |[39m     
+[33m.[39mcompileComponents()[33m;[39m
+     [90m 39 |[39m
+    [31m[1m>[22m[39m[90m 40 |[39m     fixture [33m=[39m [
+33mTestBed[39m[33m.[39mcreateComponent([33mAppComponent[39m)
+[33m;[39m
+     [90m    |[39m                       [31m[1m^[22m[39m
+     [90m 41 |[39m     component [33m=[39m 
+fixture[33m.[39mcomponentInstance[33m;[39m
+     [90m 42 |[39m     
+fixture[33m.[39mdetectChanges()[33m;[39m
+     [90m 43 |[39m   })[33m;[39m[0m
+
+      at isModuleWithProviders (node_modules/@angular/core/fesm202
+2/_debug_node-chunk.mjs:7259:16)
+      at expandModuleWithProviders (node_modules/@angular/core/fes
+m2022/_debug_node-chunk.mjs:17797:7)
+          at Array.map (<anonymous>)
+      at Function.get (node_modules/@angular/core/fesm2022/_debug_
+node-chunk.mjs:17512:84)
+      at getNgModuleDef 
+(node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:476:10)
+      at getNgModuleDefOrThrow 
+(node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:479:23)
+      at verifySemanticsOfNgModuleDef (node_modules/@angular/core/
+fesm2022/_debug_node-chunk.mjs:17585:19)
+      at Function.get (node_modules/@angular/core/fesm2022/_debug_
+node-chunk.mjs:17549:22)
+      at TestBedCompiler.applyProviderOverridesInScope 
+(node_modules/@angular/core/fesm2022/testing.mjs:825:25)
+      at TestBedCompiler.compileTestModule 
+(node_modules/@angular/core/fesm2022/testing.mjs:1065:10)
+      at TestBedCompiler.finalize 
+(node_modules/@angular/core/fesm2022/testing.mjs:704:10)
+      at _TestBedImpl.get testModuleRef [as testModuleRef] 
+(node_modules/@angular/core/fesm2022/testing.mjs:1492:43)
+      at _TestBedImpl.inject 
+(node_modules/@angular/core/fesm2022/testing.mjs:1413:25)
+      at _TestBedImpl.createComponent 
+(node_modules/@angular/core/fesm2022/testing.mjs:1465:40)
+      at Function.createComponent 
+(node_modules/@angular/core/fesm2022/testing.mjs:1306:33)
+      at Object.<anonymous> (src/app/app.spec.ts:40:23)
+
+  ΓùÅ AppComponent ΓÇ║ should return false for isStandaloneRoute 
+for other urls
+
+    TypeError: Cannot read properties of null (reading 'ngModule')
+
+    [0m [90m 38 |[39m     
+[33m.[39mcompileComponents()[33m;[39m
+     [90m 39 |[39m
+    [31m[1m>[22m[39m[90m 40 |[39m     fixture [33m=[39m [
+33mTestBed[39m[33m.[39mcreateComponent([33mAppComponent[39m)
+[33m;[39m
+     [90m    |[39m                       [31m[1m^[22m[39m
+     [90m 41 |[39m     component [33m=[39m 
+fixture[33m.[39mcomponentInstance[33m;[39m
+     [90m 42 |[39m     
+fixture[33m.[39mdetectChanges()[33m;[39m
+     [90m 43 |[39m   })[33m;[39m[0m
+
+      at isModuleWithProviders (node_modules/@angular/core/fesm202
+2/_debug_node-chunk.mjs:7259:16)
+      at expandModuleWithProviders (node_modules/@angular/core/fes
+m2022/_debug_node-chunk.mjs:17797:7)
+          at Array.map (<anonymous>)
+      at Function.get (node_modules/@angular/core/fesm2022/_debug_
+node-chunk.mjs:17512:84)
+      at getNgModuleDef 
+(node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:476:10)
+      at getNgModuleDefOrThrow 
+(node_modules/@angular/core/fesm2022/_untracked-chunk.mjs:479:23)
+      at verifySemanticsOfNgModuleDef (node_modules/@angular/core/
+fesm2022/_debug_node-chunk.mjs:17585:19)
+      at Function.get (node_modules/@angular/core/fesm2022/_debug_
+node-chunk.mjs:17549:22)
+      at TestBedCompiler.applyProviderOverridesInScope 
+(node_modules/@angular/core/fesm2022/testing.mjs:825:25)
+      at TestBedCompiler.compileTestModule 
+(node_modules/@angular/core/fesm2022/testing.mjs:1065:10)
+      at TestBedCompiler.finalize 
+(node_modules/@angular/core/fesm2022/testing.mjs:704:10)
+      at _TestBedImpl.get testModuleRef [as testModuleRef] 
+(node_modules/@angular/core/fesm2022/testing.mjs:1492:43)
+      at _TestBedImpl.inject 
+(node_modules/@angular/core/fesm2022/testing.mjs:1413:25)
+      at _TestBedImpl.createComponent 
+(node_modules/@angular/core/fesm2022/testing.mjs:1465:40)
+      at Function.createComponent 
+(node_modules/@angular/core/fesm2022/testing.mjs:1306:33)
+      at Object.<anonymous> (src/app/app.spec.ts:40:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 4 total
+Snapshots:   0 total
+Time:        9.62 s
+Ran all test suites.
