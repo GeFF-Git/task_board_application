@@ -104,9 +104,10 @@ The backend is built using **.NET 10** following **Clean Architecture** principl
 - Unit and integration tests for API and some shared Angular services.
 
 ### ⏳ Not Completed
-- (Add any specific pending features, like Authentication/Authorization if not done)
+- JWT refresh tokens implementation.
 - Advanced filtering and search functionalities on the board.
 - CI/CD pipeline setup (GitHub Actions, etc.).
 - Production deployment configuration.
 - Form control validation for some fields and some cosmetic bugs in UI.
 - CSRF token validation.
+- Forgot my password option to change the password.
