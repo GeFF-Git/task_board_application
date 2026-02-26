@@ -20,7 +20,7 @@ import { TaskStore } from '@entities/task/api/task.store';
           @if (!collapsed()) {
             <div class="brand-info">
               <span class="brand-name">Relate<em>wise</em></span>
-              <span class="brand-sub">Application</span>
+              <span class="brand-sub">Task Board</span>
             </div>
           }
         </div>
