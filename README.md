@@ -108,3 +108,5 @@ The backend is built using **.NET 10** following **Clean Architecture** principl
 - Advanced filtering and search functionalities on the board.
 - CI/CD pipeline setup (GitHub Actions, etc.).
 - Production deployment configuration.
+- Form control validation for some fields and some cosmetic bugs in UI.
+- CSRF token validation.
